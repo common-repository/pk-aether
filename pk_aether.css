@@ -1,0 +1,85 @@
+.PK_form
+	{
+	width: 					100%;
+	font-size: 				0.9em;
+	}
+
+.PK_fieldset input, select
+	{
+	border: 				1px solid #999999;	
+	-moz-border-radius: 	6px;
+ 	-webkit-border-radius:	6px;
+ 	behavior:				url(border-radius.htc);
+	padding: 				2px;
+	font-size:				1.0em;
+	margin-bottom: 			5px;
+	width:					auto;
+	}
+	
+.PK_fieldset
+	{
+	width: 					100%;
+	border: 				1px solid #999999;	
+	-moz-border-radius: 	6px;
+ 	-webkit-border-radius:	6px;
+ 	behavior:				url(border-radius.htc);
+	text-align:				left;
+	}
+	
+.PK_label
+	{
+	clear: 					left;
+	float: 					left;
+	width: 					180px;
+	}
+	
+
+.PK_topdiv
+	{
+	position: 				relative;
+	width: 					300px;
+	text-align: 			left;
+	background-color:		#FFFFFF;
+	font-size: 				1.1em;
+	font-weight:			900;
+	border: 				1px solid #999999;	
+	-moz-border-radius: 	6px;
+ 	-webkit-border-radius:	6px;
+ 	behavior:				url(border-radius.htc);
+	padding: 				10px;
+	background-image:		url(images/entry_back.png);
+	
+	}
+	
+.PK_botdiv
+	{
+	margin-top: 			-12px;
+	background-color:		#FFFFFF;
+	width: 					300px;
+	text-align: 			left;
+	font-size: 				1.1em;
+	border: 				1px solid #999999;	
+	-moz-border-radius: 	6px;
+ 	-webkit-border-radius:	6px;
+ 	behavior:				url(border-radius.htc);
+	padding: 				10px;
+	padding-top: 			22px;
+	}
+	
+.PK_red
+	{
+	color:#CC0000;
+	}
+	
+#commentform label.error
+	{
+	font-size: 				11px; 
+	margin-left:			180px;
+	background-image: 		url(images/cancel.png);
+	background-repeat:		no-repeat;
+	background-position: 	left;
+	margin-top:				4px;
+	padding: 				3px;
+	padding-left:			20px;
+	color:#CC0000;
+	}
